@@ -4,28 +4,28 @@
 class Relix < Formula
   desc "Run Relix relational-algebra scripts as a stage of a Unix pipeline"
   homepage "https://github.com/DarkCollective/relix-cli"
-  version "0.1.1"
+  version "0.1.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/DarkCollective/relix-cli/releases/download/v#{version}/relix-#{version}-macos-aarch64.tar.gz"
-      sha256 "7d16e113c096fda54a1835c988e3ce2345a081aa37e7ebbc78d9ca1f00cfe51a"
+      sha256 "b12119ab59e7026bc4b88746f610be42e1537b36d0df48457d7ffbce59d3a46f"
     end
     on_intel do
       url "https://github.com/DarkCollective/relix-cli/releases/download/v#{version}/relix-#{version}-macos-x86_64.tar.gz"
-      sha256 "1a796bbf3878befc491d296d2797e9049252f633542bdbfe6a1f6d5f94f0d856"
+      sha256 "107042d6a58f593225a10f442e797bee96a4d2cfe39deace5bc16604a9c4d762"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/DarkCollective/relix-cli/releases/download/v#{version}/relix-#{version}-linux-aarch64.tar.gz"
-      sha256 "96a6db0bb96eedc50965807fe898ab19e6843353bca9b182ccad0856fe1a8a55"
+      sha256 "d8904af44d474762884227239e5701c9429ec5afb7aa8b8d01f16a164342229c"
     end
     on_intel do
       url "https://github.com/DarkCollective/relix-cli/releases/download/v#{version}/relix-#{version}-linux-x86_64.tar.gz"
-      sha256 "bcf10b7caec2ba6feb88c4ddd5320328eb5e3d17276e03433eb50d65ce0c9793"
+      sha256 "92f1361a9110c5fb3ae3d42e51314bf0ae10da832c8e4c428f83fbb4f61608c0"
     end
   end
 
